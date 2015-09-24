@@ -1,0 +1,51 @@
+<form method="post" action="model.php"
+<p>
+<label for="title">Titre de l'atelier </label> : <input type ="text" name="title" id="title" size="30" maxlength="120"/> <br />
+<label for="type">Type de l'atelier</label> : <select name="type" id="type">
+<option value="science">Atelier scientifique</option>
+<option value="conference">Conf&eacuterence</option>
+<option value="otherType">Autre</option>
+</select> <br />
+
+Th&egrave;mes disciplinaires : <br />
+<input type ="checkbox" name="computScience" id="computScience" /><label for="computScience">Informatique</label> <br />
+<input type ="checkbox" name="chemestry" id="chemestry" /><label for="chemestry">Chimie</label> <br />
+<input type ="checkbox" name="history" id="history" /><label for="history">Histoire</label> <br />
+<input type ="checkbox" name="otherTheme" id="otherTheme" /><label for="otherTheme">Autre</label> <br />
+
+<label for="time">Dur&eacute;e(minutes)</label> : <input type ="number" name="time" id="time" min="0" max="180" step="15" /> <br />
+<label for="capacity">Capacit&eacute</label> : <input type ="number" name="capacity" id="capacity" min="0"  /> <br />
+<label for="desc">Description</label> :  <textarea name="desc" id="desc"></textarea> <br />
+<label for="animator">Animateur </label> : <input type ="text" name="animator" id="animator" size="30" maxlength="120"/> <br />
+
+Public : <br />
+<input type ="checkbox" name="primary" id="primary" /><label for="primary">Primaires</label> <br />
+<input type ="checkbox" name="6class" id="6class" /><label for="6class">6&egrave;mes</label> <br />
+<input type ="checkbox" name="5class" id="5class" /><label for="5class">5&egrave;mes</label> <br />
+<input type ="checkbox" name="4class" id="4class" /><label for="4class">4&egrave;mes</label> <br />
+<input type ="checkbox" name="3class" id="3class" /><label for="3class">3&egrave;mes</label> <br />
+<input type ="checkbox" name="2class" id="2class" /><label for="2class">2ndes</label> <br />
+<input type ="checkbox" name="1class" id="1class" /><label for="1class">1&egrave;res</label> <br />
+<input type ="checkbox" name="endclass" id="endclass" /><label for="endclass">Terminales</label> <br />
+<input type ="checkbox" name="prepa" id="prepa" /><label for="prepa">Classes Pr&eacuteparatoires</label> <br />
+<input type ="checkbox" name="university" id="university" /><label for="university">Universitaires</label> <br />
+
+<label for="com">Remarques</label> :  <textarea name="com" id="com"></textarea> <br />
+<label for="addr">Adresse</label> :  <textarea name="addr" id="addr"></textarea> <br />
+<label for="accesReduit">Accesible aux personnes &agrave mobilit&eacute r&eacuteduite</label> : <input type ="checkbox" name="accesReduit" id="accesReduit" /> <br />
+
+</p>
+</form>
+
+
+
+
+
+<!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<label for="testint">testint</label> : <input type ="number" name="testint" id="testint" min="0" /> <br />
+<label for="testcheck">testcheck</label> : <input type ="checkbox" name="testcheck" id="testcheck" /> <br />
+<label for="testarea">testarea</label> :  <textarea name="testarea" id="testarea"></textarea> <br />
+<label for="testselect">testselect</label> :  <select name="testselect" id="testselect">
+<option value="test">test</option>
+</select> <br />
+</form> -->
