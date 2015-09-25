@@ -13,6 +13,7 @@ class Atelier {
  var $_addr;
  var $_acces;
  
+ 
  // Déclarations des méthodes
  function add() {
 	$at= new Atelier;
@@ -43,5 +44,9 @@ class Atelier {
 	$at ->_public[]=$university
 	
 	}
+
+}
+function test() { 
+	print("it's seems to work just fine ");
 }
 ?>
